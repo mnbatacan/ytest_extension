@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<!doctype html>
+<html>
+  <head>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+		// $("moderateBtn").click(function ()
+		// {
+		// 	// $.ajax({
+		// 	// 	url: 'http://localhost/ytest/index.php',
+		// 	// 	data: "name=bob",
+		// 	// 	dataType: 'json',
+		// 	// 	success: function(data){
+		// 	// 		alert("success");
+		// 	// 		$("p").text(data);
+		// 	// 	},
+		// 	// 	error: function(data){
+		// 	// 		alert("error");
+		// 	// 	}
+		// 	// });
+		// 	alert("hEY!!");
+		// });
+
+		function myFunction(element) {
+		  document.getElementById("demo").innerHTML = "Hello World";
+		}
+
+
+
+  	</script>
+    <title>Youtube Comments Moderator</title>
+  </head>
+  <body>
+  	<div class="container">
+  		<div class="jumbotron">
+	    	<p style="font-size:20px; font-weight: bold; margin-top: -10px;">Hello! I'm here to clean your feed.<p>
+	    	<p style="font-size:13px; margin-top: -10px; line-height: 14px;">I will automatically flag comments that may violate Youtube's community guidelines</p>
+		</div>
+<!-- 	    <p>Video title: </p>
+	    <p>Video id:</p>
+	    <p>Author: </p>
+ -->
+	    <div class="btnDiv"><button onclick="myFunction(this)" type="button" class="btn btn-primary btn-lg btn-block moderateBtn">Moderate!</button></div>
+	</div>
+   <p id="demo"></p>
+
+	
+
+	</script>
+
+  </body>
+</html>

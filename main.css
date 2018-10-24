@@ -1,0 +1,30 @@
+html,body{
+	width:300px;
+	height:350px;
+	padding: 2%;
+	margin-top: 5px;
+	/*font-family: Roboto;*/
+	font-weight: bold;
+	align-items: center;
+}
+
+.jumbotron{
+	line-height: 18px;
+	margin: 0;
+	height: 120px;
+}
+
+.container{
+	align-content: center;
+}
+
+.moderateBtn{
+	align-content: center;	
+}
+
+.btnDiv{
+	align-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 20px;
+}
