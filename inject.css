@@ -1,3 +1,18 @@
 body{
 	background-color: blue; 
 }
+
+button{
+	background-color: red;
+	color: white;
+	z-index: 100;
+	/*width: 40px;*/
+}
+
+.puta{
+	z-index: 100;
+	/*margin:100px;*/
+}
+div{
+	/*background-color: black;*/
+}

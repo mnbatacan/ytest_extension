@@ -14,7 +14,7 @@
 },
 "content_scripts": [
     {
-      "matches": ["https://www.youtube.com/*","http://*/*","https://*/*"],
+      "matches": ["https://www.youtube.com/*","http://*/*","https://*/*","http://localhost/ytest/index.php"],
       "css": ["inject.css"],
       "js": ["jquery.js","inject.js"],
       "run_at": "document_end"
