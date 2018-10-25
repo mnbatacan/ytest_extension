@@ -1,30 +1,103 @@
 html,body{
 	width:300px;
-	height:350px;
-	padding: 2%;
-	margin-top: 5px;
+	height:300px;
+	/*padding: 2%;*/
+	margin-top: 0px;
 	/*font-family: Roboto;*/
 	font-weight: bold;
 	align-items: center;
 }
 
-.jumbotron{
+.card-panel{
 	line-height: 18px;
 	margin: 0;
 	height: 120px;
+
+}
+ul{
+	margin-top: -15px;
+	font-family: 'Niramit', sans-serif;
+	list-style-type: circle;
+	list-style-position: inside;
+	
+}
+
+ul li{
+	color:#616161;
+	font-size: 13px;
+	list-style-type: circle;
+}
+li{
+	display: list-item;
+}
+
+.guideList li:before {
+   content: "\2022  "
 }
 
 .container{
 	align-content: center;
 }
 
-.moderateBtn{
+button{
 	align-content: center;	
+	background-color: #FF0000;
+	height: 5px;
+	font-size: 4px;
+	float: right;
 }
 
-.btnDiv{
-	align-content: center;
-	align-items: center;
-	width: 100%;
-	margin-top: 20px;
+
+.statsDiv{
+	font-size: 13px;
+	line-height: 15px;
+	margin-top: 35px;
+}
+#test1{
+	margin-top: 30px;
+}
+
+.username{
+	font-size: 15px;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 60px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 60px;
+    -moz-background-clip: padding;
+    border-radius: 60px;
+    background-clip: padding-box;
+    margin: -10px 0px 0 -3px;
+    float: left;
+
+    /*left:10px;*/
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.username{
+	font-size: 17px;
+}
+.subs{
+	font-size: 12px;
+}
+
+.card-panel{
+	padding-top: -20px;
+	height: 100px;
+}
+
+.userContainer{
+	line-height: 1px;
+	float: right;
+
+	margin-top: -15px;
+}
+
+#test2{
+	margin-top: -30px;
+	padding:10px;
 }
