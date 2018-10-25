@@ -17,23 +17,21 @@ html,body{
 ul{
 	margin-top: -15px;
 	font-family: 'Niramit', sans-serif;
-	list-style-type: circle;
-	list-style-position: inside;
+	list-st/*yle-type: circle;
+	list-st*/yle-position: inside;
 	
 }
 
 ul li{
 	color:#616161;
 	font-size: 13px;
-	list-style-type: circle;
-}
-li{
-	display: list-item;
+	/*list-style-type: circle;*/
 }
 
-.guideList li:before {
+
+/*.guideList li:before {
    content: "\2022  "
-}
+}*/
 
 .container{
 	align-content: center;
@@ -100,4 +98,10 @@ button{
 #test2{
 	margin-top: -30px;
 	padding:10px;
+}
+
+.liDiv{
+	padding: 2px;
+	background-color: #f5f5f5;
+	margin: 5px;
 }

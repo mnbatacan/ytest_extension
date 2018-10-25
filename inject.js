@@ -40,6 +40,7 @@ div.style.background = 'rgba(228,238,255,0.8)';
 
 btn.type = 'button';
 btn.id = 'moderateBtn';
+btn.class= 'moderateBtn';
 btn.value = 'Moderate!';
 // btn.style.position = 'absolute';
 btn.style.visibility = 'visible';
@@ -54,3 +55,33 @@ btn.style.marginTop = "14px";
 btn.class="waves-effect waves-light btn-large";
 btn.style.backgroundColor = '#3765AB';
 btn.style.color = 'white';
+
+
+
+
+
+if( document.readyState === 'complete' ) {
+    console.log( 'document is already ready, just execute code here' );
+    // myInitCode();
+} else {
+	
+	if('addEventListener' in document){
+	    // document.addEventListener("DOMContentLoaded", function(e){
+	    	$(document).on("click","#moderateBtn",function(){
+	    		console.log("hey???!!");
+				$.ajax({
+					url: 'http://localhost/ytest/index.php',
+					data: "name=bob",
+					type: 'get',
+					dataType: 'html',
+					success: function(data){
+						alert("success!");
+					},
+					error: function(){
+						alert("error :(");
+					}
+				});
+			});
+		// },false)
+	};
+}
